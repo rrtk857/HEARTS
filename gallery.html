@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .gg {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #id1 {
+            position: absolute;
+            left: 1300px;
+        }
+
+        #id2 {
+            position: absolute;
+            left: 1400px;
+        }
+
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin: 0px 25px;
+        }
+
+        .navbar {
+            color: black;
+            display: flex;
+            border: 2px solid black;
+            height: 50px;
+            background-color: black;
+            position: fixed;
+            width: 100vw;
+            z-index: 100000;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            position: sticky;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            /* Important for vertical align on mobile phones */
+            margin: 0;
+            /* Important for vertical align on mobile phones */
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(165, 124, 42);
+            border-radius: 12px;
+            border: 2px solid white;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            border: 2px solid black;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><img class="logo"
+                src="https://i.pinimg.com/736x/2d/79/a5/2d79a5fd49f1be67c6a48a73d5eb8e39--people-kissing-melted-crayons.jpg"
+                alt=""></div>
+        <div>
+            <a class="same" href="/home.html">HOME</a>
+            <a class="same" href="/chek.html">PROFILES</a>
+            <a class="same" href="/chat.html">CHAT</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">MENU
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/gallery.html">Gallery</a>
+                <a href="/contact.html" target="_blank">Contact Us</a>
+                <a href="/history.html" target="_blank">History</a>
+                <a href="/" target="_blank">Food Service</a>
+                <a href="#" target="_blank">Fun Game</a>
+                <a href="#" target="_blank">Restaurant/cafe</a>
+            </div>
+        </div>
+        <a class="same" id="id1" href="/login.html">LOGIN</a>
+        <a class="same" id="id2" href="/register.html">SIGN IN</a>
+    </div>
+    <div class="ggg">
+        <img class="gg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_oIFGW-_lCjqXfJSdK0ZDewP02m8NVStOHR7MAREvBx8sIIcI2k9QfmqPoin3jCelKMU&usqp=CAU"
+            alt="">
+        <img class="gg"
+            src="https://www.shutterstock.com/image-photo/happy-couple-walking-park-holding-260nw-1250199208.jpg"
+            alt="">
+        <img class="gg"
+            src="https://www.shutterstock.com/image-photo/attractive-young-couple-dating-restaurant-260nw-329814443.jpg"
+            alt="">
+        <img class="gg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkimTG5L2nv5nbpLD7ei01ixbnafxZZXzdAw&usqp=CAU"
+            alt="">
+        <img class="gg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSniv0LBckxP1gslEnnt6uleLoXB7ta0nLIug&usqp=CAU"
+            alt="">
+        <img class="gg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTer8P7YPK9A9AewtyR57YxmUIvWhDcrPpIHw&usqp=CAU"
+            alt="">
+        <img class="gg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-E6HsVr59xOpu6BSf2kse8aE-AVdDmrH6Uw&usqp=CAU"
+            alt="">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+   
+  <div class="navbar">
+    <div><img class="logo"
+            src="https://i.pinimg.com/736x/2d/79/a5/2d79a5fd49f1be67c6a48a73d5eb8e39--people-kissing-melted-crayons.jpg"
+            alt=""></div>
+    <div>
+        <a class="same" href="/home.html">HOME</a>
+        <a class="same" href="/chek.html">PROFILES</a>
+        <a class="same" href="/chat.html">CHAT</a>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">MENU
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/gallery.html">Gallery</a>
+            <a href="/contact.html" target="_blank">Contact Us</a>
+            <a href="/history.html" target="_blank">History</a>
+            <a href="#" target="_blank">Food Service</a>
+            <a href="#" target="_blank">Fun Game</a>
+            <a href="#" target="_blank">Restaurant/cafe</a>
+        </div>
+    </div>
+    <a class="same" id="id1" href="/login.html">LOGIN</a>
+    <a class="same" id="id2" href="/register.html">SIGN IN</a>
+</div>
+    <div class="chat-popup" id="myForm">
+        <style>
+
+             .chat-popup{
+                margin-left: 50px;
+             }
+            /* Button used to open the chat form - fixed at the bottom of the page */
+            
+            .open-button {
+              background-color: #555;
+              color: white;
+              padding: 16px 20px;
+              border: none;
+              cursor: pointer;
+              opacity: 0.8;
+              position: fixed;
+              bottom: 23px;
+              right: 28px;
+              width: 280px;
+            }
+            
+            /* The popup chat - hidden by default */
+            .form-popup {
+              display: none;
+              position: fixed;
+              bottom: 0;
+              right: 15px;
+              border: 3px solid #f1f1f1;
+              z-index: 9;
+            }
+            
+            /* Add styles to the form container */
+            .form-container {
+              max-width: 300px;
+              padding: 10px;
+              background-color: white;
+            }
+            
+            /* Full-width textarea */
+            .form-container textarea {
+              width: 1300px;
+              padding: 15px;
+              margin: 5px 0 22px 0;
+              border: none;
+              background: #f1f1f1;
+              resize: none;
+              min-height: 200px;
+            }
+            
+            /* When the textarea gets focus, do something */
+            .form-container textarea:focus {
+              background-color: #ddd;
+              outline: none;
+            }
+            
+            /* Set a style for the submit/login button */
+            .form-container .btn {
+              background-color: #04AA6D;
+              color: white;
+              padding: 16px 20px;
+              border: none;
+              cursor: pointer;
+              width: 100%;
+              margin-bottom:10px;
+              opacity: 0.8;
+            }
+            
+            /* Add a red background color to the cancel button */
+            .form-container .cancel {
+              background-color: red;
+            }
+            
+            /* Add some hover effects to buttons */
+            .form-container .btn:hover, .open-button:hover {
+              opacity: 1;
+            }</style>
+        <form action="/action_page.php" class="form-container">
+          <h1>Chat</h1>
+      
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Type message.." name="msg" required></textarea>
+      
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          <script>
+            function openForm() {
+document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+document.getElementById("myForm").style.display = "none";
+}
+         </script>
+        </form>
+       
+           
+      </div>
+    <h3>Previous Chats</h3>
+    <div class="container">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="Avatar">
+        <p>Hello. How are you today?</p>
+        <span class="time-right">11:00</span>
+      </div>
+      
+      <div class="container darker">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=female
+        " alt="Avatar" class="right">
+        <p>Hey! I'm fine. Thanks for asking!</p>
+        <span class="time-left">11:01</span>
+      </div>
+      
+      <div class="container">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="Avatar">
+        <p>Sweet! So, what do you wanna do today?</p>
+        <span class="time-right">11:02</span>
+      </div>
+      
+      <div class="container darker">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=female
+        " alt="Avatar" class="right">
+        <p>Nah, I dunno. i dont have any work</p>
+        <span class="time-left">11:05</span>
+      </div>
+      
+      <div class="container">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="Avatar">
+        <p>Sweet! If you are free... Can we hangout?</p>
+        <span class="time-right">11:06</span>
+      </div>
+
+      <div class="container darker">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=female
+        " alt="Avatar" class="right">
+        <p>Yah. Sure!</p>
+        <span class="time-left">11:08</span>
+      </div>
+
+      <div class="container">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=male" alt="Avatar">
+        <p>So, where do you want to go?</p>
+        <span class="time-right">11:10</span>
+      </div>
+
+      <div class="container darker">
+        <img src="https://xsgames.co/randomusers/avatar.php?g=female
+        " alt="Avatar" class="right">
+        <p>Anywhere with you</p>
+        <span class="time-left">11:15</span>
+      </div>
+</body>
+</html>

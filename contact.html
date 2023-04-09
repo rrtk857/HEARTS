@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <style>
+        #id1 {
+            position: absolute;
+            left: 1300px;
+        }
+
+        #id2 {
+            position: absolute;
+            left: 1400px;
+        }
+
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin: 0px 25px;
+        }
+
+        .navbar {
+            color: black;
+            display: flex;
+            border: 2px solid black;
+            height: 50px;
+            background-color: black;
+            position: fixed;
+            width: 100vw;
+            z-index: 100000;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            position: sticky;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(165, 124, 42);
+            border-radius: 12px;
+            border: 2px solid white;
+        }
+
+        body {
+            background-image: url("https://th.bing.com/th/id/R.204c5e6f49f848defc25372a60e67742?rik=Py0KRhramyoXZQ&riu=http%3a%2f%2fcapitalchoicecounselling.com%2fwp-content%2fuploads%2f2016%2f07%2fcouples-on-a-beach-ottawa.jpg&ehk=SZa0cVLHm9MWq4%2fCmZyMA6jTMOZPhKhzxM27oXx9mtE%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            border: 2px solid black;
+            border-radius: 5px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .conttt {
+            padding: 100px;
+        }
+
+        #heading {
+            position: absolute;
+            top: 200px;
+            left: 900px;
+            font-size: 45px;
+            text-decoration: underline;
+        }
+
+        #i {
+            display: flex;
+            flex-direction: column;
+            margin: 35px;
+            border: 2px solid black;
+        }
+
+        .tanya {
+            height: 50px;
+            width: 60px;
+            margin: 20px;
+        }
+
+        .swati {
+            height: 40px;
+            width: 40px;
+            margin: 20px;
+        }
+        #mm{
+            height: 200px;
+            width: 450px;
+            position: absolute;
+            border: 2px solid black;
+            left: 136px;
+        }
+        #komal {
+            position: absolute;
+            top: 300px;
+            left: 860px;
+            border: 3px solid black;
+            background-color:  rgb(105, 105, 111);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><img class="logo"
+                src="https://i.pinimg.com/736x/2d/79/a5/2d79a5fd49f1be67c6a48a73d5eb8e39--people-kissing-melted-crayons.jpg"
+                alt=""></div>
+        <div>
+            <a class="same" href="/home.html">HOME</a>
+            <a class="same" href="/chek.html">PROFILES</a>
+            <a class="same" href="/chat.html">CHAT</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">MENU
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/gallery.html">Gallery</a>
+                <a href="#" target="_blank">Contact Us</a>
+                <a href="/history.html" target="_blank">History</a>
+                <a href="#" target="_blank">Food Service</a>
+                <a href="#" target="_blank">Fun Game</a>
+                <a href="#" target="_blank">Restaurant/cafe</a>
+            </div>
+        </div>
+        <a class="same" id="id1" href="/login.html">LOGIN</a>
+        <a class="same" id="id2" href="/register.html">SIGN IN</a>
+    </div>
+    <div class="conttt">
+        <h3 id="heading">Contact Us On-</h3>
+        <img id="i"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRHBFSNPmcmFbEr1yXaCt3fqgEMVl6RbTeLdL2a9q&s"
+            alt="">
+        <img id="i"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxRPnLwBY8zJfqJM0kxZeuScGoXhMEx_y_LNxd4WP_7IYXYRAomasTEFc4zjmAjPAVZCc&usqp=CAU"
+            alt="">
+        <img id="mm" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKDL_61HoLxrLkTdTM7F9PgxNg4x5pn7Kjdw&usqp=CAU"
+            alt="">
+    </div>
+    <div id="komal">
+        <a href="https://www.facebook.com" target="_blank"><img class="tanya"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQSMF1L7_nd9k8Obfn_H1HeLcfBxbjZVyxIzAMIJrd&s"
+                alt=""></a>
+        <a href="https://www.instagram.com"><img class="tanya"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnm9QB5bDwZ8jo9UqC4XD6IM8CpyqM1m0C7Jcb4UY&s"
+                alt=""></a>
+        <a href="https://www.twitter.com"><img class="swati"
+                src="https://cdn.icon-icons.com/icons2/3438/PNG/512/twitter_logo_icon_218921.png" alt=""></a>
+        <a href="https://www.pinterest.com"><img class="tanya"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTX3x6j8QRxb1rKX0tCVJLsmKvYhxU-ZhpWFYi-x8&s"
+                alt=""></a>
+    </div>
+
+</body>
+<script>
+
+</script>
+
+</html>
