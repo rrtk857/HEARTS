@@ -20,7 +20,7 @@ body{
     height: 50px;
     background-color: black;
     
-    width: 100vw;
+    width: 99.7vw;
     z-index: 100000;
     margin: 0;
 }
@@ -165,3 +165,11 @@ body {
     color: white;
     
 }
+#id1{
+    position: absolute;
+    left: 1270px;
+  }
+  #id2{
+    position: absolute;
+    left: 1350px;
+  }

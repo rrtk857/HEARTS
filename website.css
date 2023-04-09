@@ -135,11 +135,14 @@ p{
 #more {display: none;}
 #myBtn{
     position: absolute;
-    top: 545px;
+    top: 650px;
     left: 830px;
-    border: 2px solid black;
+    border: 2px solid white;
     background-color:rgb(165, 124, 42) ;
-    font-size: 16px;   
+    font-size: 16px; 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;  
 }
   .navbar a {
     float: left;
@@ -225,7 +228,7 @@ p{
 #lang{
   position: absolute;
   top: 60px;
-  left: 1300px;
+  left: 1250px;
 }
 .checked {
   color: orange;
